@@ -6,9 +6,6 @@ This project was created to practice and test my React skills. The app works wel
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Installation
 
@@ -16,10 +13,10 @@ To get started, clone the repository and install the required dependencies:
 
 ```bash
 # Clone the repository
-git clone https://github.com/username/repo.git
+git clone https://github.com/Hannyel0/Vowels-and-consonants.git
 
 # Change to the project directory
-cd repo
+cd Vowels-and-consonants
 
 # Install dependencies
 npm install
