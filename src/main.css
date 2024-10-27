@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+.container{
+    background-color: rgb(245, 245, 245);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container{
+    background-color: rgb(255, 255, 255);
+    box-shadow: -2px 0px 35px 0px rgba(0, 0, 0, 0.192);
+    width: 30%;
+    border-radius: 30px;
+
+}
+
+
+
+.form-container h1{
+    font-size: 2.1rem;
+    margin: 1.3rem 0;
+    text-align: center;
+}
+
+.form-letter{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.1rem;
+}
+
+.error-wrapper{
+    width: 80%;
+
+}
+
+.error-handle{
+    font-weight: 400;
+    color: #ff0000;
+    font-size: .8rem;
+}
+
+.form-letter input[type="text"]{
+    border: 1px solid rgb(190, 190, 190);
+    padding: .5rem;
+    width: 80%;
+    outline: none;
+}
+
+.form-letter input[type="text"].input-error:focus{
+    border: 1px solid rgb(255, 0, 0);
+    
+
+}
+.form-letter input[type="submit"]{
+    margin-top: 1rem;
+    width: 5rem;
+    border: none;
+    cursor: pointer;
+    padding: .5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(27, 182, 182);
+    border-radius: 10px;
+}
+.form-letter input[type="submit"]:hover{
+    background-color: rgb(32, 161, 161);
+}
+
+.reslut-container{
+    background-color: white;
+    min-height: 10rem;
+    margin-top: 8rem;
+    box-shadow: -2px 0px 35px 0px rgba(0, 0, 0, 0.199);
+    width: 30%;
+    border-radius: 30px;
+}
+
+.results{
+    padding: .9rem;
+}
+
+.results h2{
+    text-align: center;
+
+}
+
+.results p{
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1rem;
+}
